@@ -2,13 +2,15 @@
 
 Navegador Android leve, em português, baseado no WebView do sistema. Sem motor próprio, sem telemetria e com bloqueio local de anúncios.
 
-**Tamanho:** cerca de 3 MB · **Android:** 8.0 ou superior
+**Tamanho:** cerca de 3,1 MB · **Android:** 8.0 ou superior
 
 ## Baixar
 
 [Baixar o APK mais recente](https://github.com/Davisouzah/Browser/releases/latest)
 
 O pacote é assinado com chave própria, então o Android pode exibir um aviso de segurança. Isso é normal para apps fora da Play Store.
+
+A partir da 1.16, o downloader próprio usa um serviço em primeiro plano e pede permissão de notificações no Android 13+.
 
 ## Instalar
 
@@ -37,7 +39,7 @@ Essa mensagem vem do próprio GitHub. Normalmente acontece quando o link aponta 
 
 A 1.12 implementa o serviço **Chrome Custom Tabs** completo, que o YouTube usa para abrir links externos da descrição. Se a mensagem "Não é possível abrir este link" continuar:
 
-1. Confirme que a versão instalada é a **1.15**.
+1. Confirme que a versão instalada é a **1.16**.
 2. Reinicie o aparelho após instalar.
 3. Em **Apps padrão → Navegador**, escolha **Browser**.
 4. Para links de vídeos do YouTube, o próprio YouTube pode abrir o app dele; isso é normal.
@@ -73,7 +75,7 @@ O padrão de uma instalação nova é DuckDuckGo. Também há opções prontas p
 - Modo econômico sem imagens
 - Tradução de páginas para português
 - Modo desktop, escurecer sites, JavaScript ligável/desligável e zoom por pinça
-- **Transferências** no menu: lista downloads do app, com progresso, abrir, pausar/retomar (retomar recomeça) e remover
+- **Transferências** no menu: downloader próprio com até 6 conexões, progresso, abrir, pausa real, retomada por partes e remover
 - Upload e download de arquivos
 - Compatibilidade com Chrome Custom Tabs, usada pelo YouTube para links externos
 - Página inicial local, sem abrir uma aba de rede
@@ -81,15 +83,15 @@ O padrão de uma instalação nova é DuckDuckGo. Também há opções prontas p
 ## Privacidade
 
 - Favoritos e histórico ficam somente no aparelho.
-- Não há telemetria, anúncios próprios nem serviços em segundo plano.
+- Não há telemetria, anúncios próprios nem serviços em segundo plano além do download ativo.
 - A tradução envia o texto da página ao Google Translate; o restante da navegação continua local.
 
 ## Verificação
 
-SHA-256 do APK 1.15:
+SHA-256 do APK 1.16:
 
 ```text
-2e9377b11655b7037c0a9296b0ee524d11d7c3b6ffa00eb93c09ad4fcc4498ef
+1fd415e2ca8a826a5dbed20621eeb7678f08265b204eeb5faedfb83f8e1e2a3f
 ```
 
 O código-fonte não é distribuído neste repositório.
