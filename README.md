@@ -37,7 +37,7 @@ Essa mensagem vem do próprio GitHub. Normalmente acontece quando o link aponta 
 
 A 1.12 implementa o serviço **Chrome Custom Tabs** completo, que o YouTube usa para abrir links externos da descrição. Se a mensagem "Não é possível abrir este link" continuar:
 
-1. Confirme que a versão instalada é a **1.12**.
+1. Confirme que a versão instalada é a **1.13**.
 2. Reinicie o aparelho após instalar.
 3. Em **Apps padrão → Navegador**, escolha **Browser**.
 4. Para links de vídeos do YouTube, o próprio YouTube pode abrir o app dele; isso é normal.
@@ -62,8 +62,13 @@ O padrão de uma instalação nova é DuckDuckGo. Também há opções prontas p
 ## Recursos
 
 - Abas com limite de 3, liberando memória das abas inativas
+- Aba ativa com marcador visual e botão de fechar ampliado
 - Botão Início ao lado de recarregar
 - Favoritos e histórico locais, com ícones redondos, remoção individual e limpeza
+- **Apagar dados** com opções: histórico, cookies/cache e abas abertas
+- **Apagar ao sair** opcional
+- **Contador de anúncios bloqueados por página** no topo do menu
+- Menu em seções, com **Apagar dados** em destaque
 - Bloqueio de anúncios e rastreadores com lista local
 - Modo econômico sem imagens
 - Tradução de páginas para português
@@ -80,10 +85,10 @@ O padrão de uma instalação nova é DuckDuckGo. Também há opções prontas p
 
 ## Verificação
 
-SHA-256 do APK 1.12:
+SHA-256 do APK 1.13:
 
 ```text
-0e8d1f397a42a271848bc76d152dabb16100fb2731fc87205f749316dc56e604
+062a998487f3558435d1157aceab68c8dc351cb898da0d33184f4a00cd303d29
 ```
 
 O código-fonte não é distribuído neste repositório.
